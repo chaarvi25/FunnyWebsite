@@ -8,6 +8,8 @@
   (max-width:767px)" href="css/style_600.css">
   <link rel="stylesheet" type="text/css" media="only screen and (min-width:300px) and
   (max-width:599px)" href="css/style_300.css">
+  <script type="text/javascript" src="js/jquery-3.1.1.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
 </head>
 <body>
   <div class="wrapper">
@@ -41,13 +43,13 @@
     </aside>
 
     <main>
-      <img src="images/chrvdrw.jpg" id="big-image">
+      <img id="banner" src="images/chrvdrw.jpg" id="big-image">
       <div id="newsletter">
         <span id="signup-txt">Sign up for our free newsletter to stay up to date on
           my newest tutorials, podcasts and giveaways</span>
           <span class="subscribe-span">
             <input type="text" name="email" class="email-input">
-            <span class="button">Subscribe</span>
+            <button type="button" id="submit">Subscribe</button><!--<span class="button">Subscribe</span>-->
           </span>
         </div>
 
@@ -57,6 +59,7 @@
 
             <img src="images/first-tn.png">
 
+			
             <div class="art-title">Slow and Steady Win the Race</div>
             <div class="art-excerpt">
               Here is a random picture
@@ -67,6 +70,7 @@
               Just click the picture to
               read more.
             </div>
+			
 
           </div>
 
@@ -122,7 +126,7 @@
           </div>
 
         </div>
-
+		
       </main>
 
     </div> <!-- End of Wrapper -->
